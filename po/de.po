@@ -38,11 +38,11 @@ msgstr ""
 
 #: ../virt-manager:43
 msgid "Error starting Virtual Machine Manager"
-msgstr "Fehler beim Starten der virtuellen Maschinenverwaltung"
+msgstr "Fehler beim Starten von Virtual Machine Manager"
 
 #: ../virt-manager:283
 msgid "virt-manager requires libvirt 0.6.0 or later."
-msgstr "virt-manager erfordert libvirt 0.6.0 oder später."
+msgstr "virt-manager erfordert libvirt 0.6.0 oder neuer."
 
 #: ../virt-install:122
 msgid "Cannot specify storage and use --nodisks"
@@ -54,30 +54,30 @@ msgid ""
 "disk PATH[,size=SIZE][,sparse=yes|no]"
 msgstr ""
 "Die --file, --nonsparse oder --file-size Optionen können nicht mit --disk "
-"Optionen gemischt werden. Verwenden Sie --disk PFAD[,size=GRÖSSE][,"
+"Optionen verwendet werden. Verwenden Sie --disk PFAD[,size=GRÖSSE][,"
 "sparse=yes|no]"
 
 #: ../virt-install:175
 msgid "Cannot mix both --bridge and --network arguments"
 msgstr ""
-"Die beiden Argumente, --bridge und --network, können nicht vermischt werden"
+"Die beiden Argumente, --bridge und --network, können nicht gemeinsam verwendet werden"
 
 #: ../virt-install:220
 msgid "Cannot mix --graphics and old style graphical options"
-msgstr "Kann nicht --graphics und graphische Optionen im alten Stil vermischen"
+msgstr " --graphics und graphische Optionen im alten Stil können nicht gemeinsam verwendet werden"
 
 #: ../virt-install:224
 msgid "Can't specify more than one of VNC, SDL, --graphics or --nographics"
 msgstr ""
-"Kann nicht mehr als eines angeben von: VNC, SDL, --graphics oder --nographics"
+"Es kann nur eine grafikoption gewählt werden: VNC, SDL, --graphics oder --nographics"
 
 #: ../virt-install:306
 msgid "--memory amount in MiB is required"
-msgstr "--memory Anzahl in MiB ist erforderlich"
+msgstr "--memory Wert muss in MiB angegeben werden"
 
 #: ../virt-install:310
 msgid "--disk storage must be specified (override with --disk none)"
-msgstr "--disk Storage muss angegeben sein (überschreiben mit --disk none)"
+msgstr "--disk Storage muss angegeben sein (alternativ: --disk none)"
 
 #: ../virt-install:314
 msgid ""
@@ -89,14 +89,14 @@ msgstr ""
 
 #: ../virt-install:321
 msgid "See the man page for examples of using --location with CDROM media"
-msgstr "Siehe Manpage für Beispiele wie man --location mit einer CDROM nutzt"
+msgstr "Siehe Manpage für Beispiele wie --location mit einer CDROM genutzt wird."
 
 #: ../virt-install:332
 msgid ""
 "CDROM media does not print to the text console by default, so you likely "
 "will not see text install output. You might want to use --location."
 msgstr ""
-"CDROM Medium gibt nicht standardmäßig auf die Textkonsole aus, daher werden "
+"CDROM Medium gibt standardmäßig nicht auf die Textkonsole aus, daher werden "
 "Sie wahrscheinlich keine Text Install Ausgabe sehen. Sie könnten --location "
 "verwenden."
 
@@ -105,8 +105,8 @@ msgid ""
 "No --console device added, you likely will not see text install output from "
 "the guest."
 msgstr ""
-"Kein --console Gerät hinzugefügt, Sie werden wahrscheinlich keine Text "
-"Install Ausgabe vom Gast sehen."
+"Kein --console Gerät hinzugefügt, Sie werden wahrscheinlich keine Ausgabe vom Text "
+"Install vom Gast sehen."
 
 #. 1024) > guest.currentMemory:
 #: ../virt-install:359
@@ -122,15 +122,15 @@ msgstr ""
 
 #: ../virt-install:369
 msgid "The guest's network configuration does not support PXE"
-msgstr "Die Netzwerkkonfiguration des Gasts unterstützt kein PXE"
+msgstr "Die Netzwerkkonfiguration des Gasts unterstützt PXE nicht"
 
 #: ../virt-install:378
 msgid ""
 "No operating system detected, VM performance may suffer. Specify an OS with "
 "--os-variant for optimal results."
 msgstr ""
-"Es wurde kein Betriebssystem erkannt, worunter die VM-Leistung leiden kann. "
-"Geben Sie ein OS mit  --os-variant für optimale Ergebnisse an."
+"Es wurde kein Betriebssystem erkannt, Die Leistung der VM könnte darunter leiden. "
+"Geben Sie ein Betriebssystem mit  --os-variant für optimale Ergebnisse an."
 
 #: ../virt-install:392
 msgid "Using {osname} --location {url}"
